@@ -1,0 +1,29 @@
+{
+  "name": "synth-city",
+  "version": "1.0.0",
+  "description": "Cyberpunk city simulation game",
+  "scripts": {
+    "build": "node_modules/.bin/webpack",
+    "serve": "webpack-dev-server --liveReload false",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "node_modules/.bin/eslint --fix ./src"
+  },
+  "keywords": [],
+  "author": "Charlie Campanella",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/preset-env": "^7.9.5",
+    "babel-loader": "^8.1.0",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.1.0",
+    "eslint-loader": "^4.0.0",
+    "eslint-plugin-import": "^2.20.2",
+    "webpack": "^4.42.0",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3"
+  },
+  "dependencies": {
+    "@babel/core": "^7.9.0",
+    "three": "^0.115.0"
+  }
+}

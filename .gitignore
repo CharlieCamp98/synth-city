@@ -1,0 +1,12 @@
+# Compiled Output
+/dist
+
+# Dependency Directories
+node_modules/
+
+# Environment Variable File(s)
+.env
+
+# System Files
+.DS_Store
+Thumbs.db
