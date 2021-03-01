@@ -24,6 +24,6 @@
   },
   "dependencies": {
     "@babel/core": "^7.9.0",
-    "three": "^0.115.0"
+    "three": "^0.125.0"
   }
 }
